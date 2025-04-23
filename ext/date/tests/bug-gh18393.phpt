@@ -1,5 +1,5 @@
 --TEST--
-Test DateTime::diff() with DST transitions in Europe/Berlin
+Bug GH18393 - Test DateTime::diff() with DST transitions in Europe/Berlin
 --FILE--
 <?php
 date_default_timezone_set('UTC');
